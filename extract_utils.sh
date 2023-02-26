@@ -62,7 +62,7 @@ function setup_vendor_deps() {
     export SIGSCAN="$BINARIES_LOCATION"/SigScan
     export OBJDUMP="$CLANG_BINUTILS"/llvm-objdump
 
-    for version in 0_8 0_9; do
+    for version in 0_8 0_9 0_17_2; do
         export PATCHELF_${version}="$BINARIES_LOCATION"/patchelf-"${version}"
     done
 
